@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="410dp"
+    android:layout_height="500dp"
+    android:background="@drawable/khungbtn"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SẢN PHẨM"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edtTenSP"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/khung"
+        android:hint="Tên sản phẩm"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edtGiaSP"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/khung"
+        android:hint="Giá sản phẩm"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edtSoLuongSP"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/khung"
+        android:hint="Số lượng sản phẩm"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn ảnh"
+            android:textSize="23dp"
+            android:layout_marginRight="90dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:id="@+id/btnUploadImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn file ảnh"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:background="#08B00020"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnUPDATEup"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="LƯU"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="24dp"
+        android:background="@drawable/khungbtn"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        />
+
+
+</LinearLayout>
